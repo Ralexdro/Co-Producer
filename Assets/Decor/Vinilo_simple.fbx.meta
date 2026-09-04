@@ -1,0 +1,154 @@
+- !<AssetImportMetadata/e83e7926-762c-46f0-af1b-b59025c33d17>
+  ImportedAssetIds:
+    .hidden/vinil1: !<reference> 1a0a568b-31da-4792-b034-0a2728f6adc2
+    .hidden/white: !<reference> 7889c29a-af29-48eb-b50f-d9020468229b
+    17e563b912b09454: !<reference> 2b83982b-7eca-4494-9a7f-ad3d466b74ca
+    26ba073d67b9d0dd: !<reference> 7360fbd0-c1a6-4dec-a4f4-6cea4ec739e9
+    68ed214115aa4deb: !<reference> 4709f77a-4d0a-4a58-a1ae-686a9e0cdcfa
+    748be60e0b810652: !<reference> 7f5b87a4-29fb-4bb4-a3ca-87d5021d29f1
+    Materials/vinil1: !<reference> 8bcf1b78-f9cb-4724-bb9d-5a0e678ac6c2
+    Materials/vinil1|vinil1|GraphPassInfo: !<reference> 536c5dd6-d5eb-470c-844d-cdde68fbcebb
+    Materials/vinil2: !<reference> 26c0a9f1-50fc-46d8-85eb-29d4e0655064
+    Materials/vinil2|vinil2|GraphPassInfo: !<reference> fcaef1df-bded-4fb8-befb-5198494bce4e
+    Materials/vinil3: !<reference> d576d10a-0ce7-4608-bff4-1717c17840e5
+    Materials/vinil3|vinil3|GraphPassInfo: !<reference> 3a3dabe5-182f-4a6b-81b4-f1010cf17527
+    Meshes/Disc: !<reference> e09a40da-8b57-40de-8d0d-9bddb2f4454b
+    Meshes/Disc1: !<reference> a33fbd57-bab8-4c54-ad7b-9e77e67efe45
+    Meshes/Disc2: !<reference> 3416a486-4de0-4308-a652-477860e2f5cc
+    Scene: !<reference> b50fb250-f602-40c3-bb5c-1f63941e1770
+    c819d194c3708702: !<reference> c63da6bb-6b7a-4033-8b5f-2c437bf5f7bb
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> b50fb250-f602-40c3-bb5c-1f63941e1770
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 010d4cbb-bc50-4cd6-8fc3-02aaa91666c9
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBasedV2
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<FileCompressionSettings>
+        {}
+      Performance Compression: !<PerformanceCompressionSettings>
+        Level: Medium
+        Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/010d4cbb-bc50-4cd6-8fc3-02aaa91666c9>
+  Prototype: !<ObjectOwner/9b719e6e-237c-4e8d-8808-95ea557ba2fb>
+    PackagePath: ""
+    objects:
+      - !<own> 7360fbd0-c1a6-4dec-5b0b-9315b138c616
+- !<RenderMeshVisual/2b83982b-7eca-4494-6580-52c2b9948b35>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8bcf1b78-f9cb-4724-bb9d-5a0e678ac6c2
+  Mesh: !<reference> e09a40da-8b57-40de-8d0d-9bddb2f4454b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/4709f77a-4d0a-4a58-5e51-979561f32305>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d576d10a-0ce7-4608-bff4-1717c17840e5
+  Mesh: !<reference> 3416a486-4de0-4308-a652-477860e2f5cc
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7360fbd0-c1a6-4dec-5b0b-9315b138c616>
+  PrefabRemaps:
+    []
+  Name: Vinilo_simple
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7f5b87a4-29fb-4bb4-5c35-782afde2d60e
+  Components:
+    []
+- !<SceneObject/7f5b87a4-29fb-4bb4-5c35-782afde2d60e>
+  PrefabRemaps:
+    []
+  Name: Disc
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 3.923565}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2b83982b-7eca-4494-6580-52c2b9948b35
+    - !<own> c63da6bb-6b7a-4033-74a0-d3bc840a0844
+    - !<own> 4709f77a-4d0a-4a58-5e51-979561f32305
+- !<RenderMeshVisual/c63da6bb-6b7a-4033-74a0-d3bc840a0844>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 26c0a9f1-50fc-46d8-85eb-29d4e0655064
+  Mesh: !<reference> a33fbd57-bab8-4c54-ad7b-9e77e67efe45
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

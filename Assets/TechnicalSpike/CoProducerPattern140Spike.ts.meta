@@ -1,0 +1,61 @@
+- !<AssetImportMetadata/e10d5bd4-d8d0-425d-9688-dd30a72ff177>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ad660777-aa34-4690-83e4-893187db562a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ad660777-aa34-4690-83e4-893187db562a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> c14b2c02-a3bc-4522-82b5-227fa7b3ab63
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c14b2c02-a3bc-4522-82b5-227fa7b3ab63>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 041ad6dd-6e33-4b42-bb83-98bef9ed1092
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    bass: false
+    crash: false
+    kick: false
+    remoteMedia: false
+    renderedPlayer: false
+    snare: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - kick: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      snare: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      bass: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      crash: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      remoteMedia: !<reference.RemoteMediaModule> 00000000-0000-0000-0000-000000000000
+      renderedPlayer: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.AudioTrackAsset kick
+    - // @input Asset.AudioTrackAsset snare
+    - // @input Asset.AudioTrackAsset bass
+    - // @input Asset.AudioTrackAsset crash
+    - // @input Asset.RemoteMediaModule remoteMedia
+    - // @input Component.AudioComponent renderedPlayer

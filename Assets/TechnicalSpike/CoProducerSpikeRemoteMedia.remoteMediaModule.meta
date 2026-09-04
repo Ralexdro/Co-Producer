@@ -1,0 +1,16 @@
+- !<AssetImportMetadata/111eb84a-b213-4a08-82e4-01ac4d3caeea>
+  ImportedAssetIds:
+    RemoteMediaModule: !<reference> c8f042a4-8ed8-4ff3-89ce-9b918907db2a
+  ImporterName: RemoteMediaModuleImporter
+  PrimaryAsset: !<reference> c8f042a4-8ed8-4ff3-89ce-9b918907db2a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

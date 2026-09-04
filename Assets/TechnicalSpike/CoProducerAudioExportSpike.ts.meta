@@ -1,0 +1,61 @@
+- !<AssetImportMetadata/e80604bc-c9fe-496f-ba0a-e9600c375a0c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5bda9e0d-fe9d-47a9-b443-d386da72c7b7
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5bda9e0d-fe9d-47a9-b443-d386da72c7b7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 84c271f1-ab36-44fa-989f-d4a173207f4d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/84c271f1-ab36-44fa-989f-d4a173207f4d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 6b642299-62bc-4d41-a9aa-de9db656954d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    editorWrittenPlayer: false
+    editorWrittenTrack: false
+    gasTrack: false
+    generatedPlayer: false
+    heartbeatTrack: false
+    remoteMedia: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - gasTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      heartbeatTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      remoteMedia: !<reference.RemoteMediaModule> 00000000-0000-0000-0000-000000000000
+      generatedPlayer: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      editorWrittenTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      editorWrittenPlayer: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.AudioTrackAsset gasTrack
+    - // @input Asset.AudioTrackAsset heartbeatTrack
+    - // @input Asset.RemoteMediaModule remoteMedia
+    - // @input Component.AudioComponent generatedPlayer
+    - // @input Asset.AudioTrackAsset editorWrittenTrack
+    - // @input Component.AudioComponent editorWrittenPlayer
